@@ -189,7 +189,7 @@
     border: none !important;
     box-shadow: none !important;
     background-color: transparent !important;
-    padding: 10px;
+    padding: 16px;
     width: 100%;
     height: 100%;
     font-family: var(--mp-font-family-editor) !important;
@@ -256,11 +256,20 @@
 }
 
 .mp-modal-box.mp-expanded {
-    width: 1120px !important;
+    width: 93vw !important;
     max-width: 95vw !important;
-    height: 85vh !important;
+    height: 93vh !important;
+    max-height: 95vh !important; 
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.mp-modal-box.mp-expanded .form-group:has(#__ap_text) {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    min-height: 0;
+    margin-bottom: 24px;
 }
 
 .mp-modal-box.mp-expanded .modal-title {
@@ -406,6 +415,121 @@
     stroke: currentColor;
     stroke-width: 2;
     fill: none;
+}
+
+@keyframes mp-spin {
+    to {
+        transform: rotate(360deg);
+        }
+    }
+
+.mp-enhance-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--mp-accent-primary);
+    padding: 4px;
+    border-radius: var(--mp-border-radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    margin-left: auto;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.mp-enhance-btn:hover {
+    background-color: color-mix(in srgb, var(--mp-accent-primary) 15%, transparent);
+}
+
+.mp-enhance-btn svg {
+    width: 16px;
+    height: 16px;
+    stroke-width: 2.5;
+    display: block;
+}
+
+.mp-enhance-btn.loading {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.mp-diff-modal-overlay .mp-modal-box {
+    width: 95vw !important;
+    height: 93vh !important;
+    max-width: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.mp-diff-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .mp-diff-container { flex-direction: row; }
+}
+
+.mp-diff-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+    min-height: 0;
+}
+
+.mp-diff-label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--mp-text-tertiary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.mp-diff-label svg {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.mp-diff-label.enhanced {
+    color: var(--mp-accent-primary);
+}
+
+.mp-diff-textarea {
+    width: 100%;
+    flex: 1;
+    padding: 16px;
+    border-radius: var(--mp-border-radius-md);
+    border: 1px solid var(--mp-border-primary);
+    background-color: var(--mp-bg-secondary);
+    color: var(--mp-text-primary);
+    font-family: var(--mp-font-family-editor);
+    font-size: 15px;
+    resize: none;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.mp-diff-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--mp-border-primary);
+    flex-shrink: 0;
 }
 
 .mp-files-accordion {
@@ -781,7 +905,6 @@
     background-color: var(--mp-bg-tertiary);
 }
 
-/* MODO ARRASTE ATIVO */
 .prompt-item-row.drag-mode {
     background-color: var(--mp-bg-tertiary);
     border: 1px dashed var(--mp-accent-primary);
