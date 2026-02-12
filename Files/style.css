@@ -1912,7 +1912,7 @@
 #mp-nav-lbl,
 #mp-smart-predict-lbl {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--mp-text-primary);
     cursor: default;
 }
@@ -2275,6 +2275,122 @@
 .mp-nav-list-popup::-webkit-scrollbar-thumb {
     background-color: var(--mp-border-secondary);
     border-radius: 20px;
+}
+
+.mp-backup-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mp-backup-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--mp-text-primary);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mp-backup-subtitle svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--mp-text-secondary);
+}
+
+.mp-backup-divider {
+    height: 1px;
+    background-color: var(--mp-border-primary);
+    margin: 20px 0;
+}
+
+.mp-backup-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 240px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.mp-backup-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    background-color: var(--mp-bg-secondary);
+    border: 1px solid var(--mp-border-primary);
+    border-radius: var(--mp-border-radius-md);
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.mp-backup-item:hover {
+    background-color: var(--mp-bg-tertiary);
+    border-color: var(--mp-accent-primary);
+}
+
+.mp-backup-item-content {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mp-backup-item-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--mp-text-primary);
+}
+
+.mp-backup-item-desc {
+    font-size: 11px;
+    color: var(--mp-text-tertiary);
+    margin-top: 2px;
+}
+
+.mp-backup-warning {
+    font-size: 11px;
+    color: var(--mp-accent-close);
+    background-color: rgba(240, 62, 62, 0.1);
+    padding: 8px 12px;
+    border-radius: var(--mp-border-radius-sm);
+    line-height: 1.4;
+}
+
+.mp-backup-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    justify-content: flex-end;
+}
+
+.mp-backup-actions .save-button {
+    flex: 1;
+}
+
+.mp-form-row {
+    display: flex;
+    gap: 12px !important;
+    width: 100% !important;
+    margin-bottom: 16px !important;
+    font-size: 13px !important;
+}
+
+.mp-form-row > .mp-form-group {
+    flex: 1;
+    margin-bottom: 0; 
+}
+
+@media (max-width: 400px) {
+    .mp-form-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .mp-form-row > .mp-form-group {
+        margin-bottom: 0;
+    }
+
 }
 
 #__ap_settings_overlay {
