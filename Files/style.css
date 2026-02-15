@@ -1,5 +1,5 @@
 :root {
-    --mp-font-stack-i18n: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Apple SD Gothic Neo", "Noto Sans CJK SC", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --mp-font-stack-i18n: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Apple SD Gothic Neo", "Noto Sans CJK SC", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --mp-font-family-base: var(--mp-font-stack-i18n);    
     --mp-font-family-heading: var(--mp-font-stack-i18n); 
     --mp-font-family-editor: var(--mp-font-stack-i18n);  
@@ -776,7 +776,6 @@
     justify-content: center;
     cursor: pointer;
     background: linear-gradient(135deg, color-mix(in srgb, var(--mp-accent-primary) 8%, transparent) 0%, color-mix(in srgb, var(--mp-accent-primary) 3%, transparent) 100%);
-    backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08), inset 0 1px 1px 0 rgba(255, 255, 255, 0.2);
 }
 
@@ -1762,10 +1761,10 @@
     font-family: var(--mp-font-family-button) !important;
     background-color: var(--mp-text-primary);
     color: var(--mp-bg-primary);
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: var(--mp-border-radius-sm);
     white-space: nowrap;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     box-shadow: var(--mp-shadow-md);
     line-height: 1.2;
@@ -2205,9 +2204,8 @@
     right: 45px;
     top: 50%;
     transform: translateY(-50%) scale(0.95);
-    width: 280px;
-    max-height: 400px;
-    overflow-y: auto;
+    width: 300px;
+    max-height: 500px;
     background-color: var(--mp-bg-primary);
     border: 1px solid var(--mp-border-primary);
     border-radius: var(--mp-border-radius-md);
@@ -2218,12 +2216,55 @@
     display: flex;
     flex-direction: column;
     z-index: 10001;
+    overflow: hidden;
 }
 
 .mp-nav-list-popup.active {
     opacity: 1;
     visibility: visible;
     transform: translateY(-50%) scale(1);
+}
+
+.mp-nav-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mp-bg-secondary);
+    border-bottom: 1px solid var(--mp-border-primary);
+    padding: 6px;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.mp-nav-tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--mp-text-secondary);
+    transition: background 0.2s, color 0.2s;
+}
+
+.mp-nav-tab:hover {
+    background-color: var(--mp-bg-tertiary);
+}
+
+.mp-nav-tab.active {
+    background-color: var(--mp-accent-primary);
+    color: var(--mp-text-buttons)
+}
+
+.mp-nav-tab svg {
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+}
+
+.mp-nav-scroll-area {
+    overflow-y: auto;
+    flex: 1;
 }
 
 .mp-nav-list-item {
@@ -2262,19 +2303,53 @@
     min-width: 24px;
     text-align: center;
     color: var(--mp-text-primary);
+    flex-shrink: 0;
 }
 
-.mp-nav-list-popup::-webkit-scrollbar {
+.mp-nav-preview-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+.mp-nav-type-icon {
+    width: 13px !important;
+    height: 13px !important;
+    flex-shrink: 0 !important;
+    color: var(--mp-accent-primary) !important;
+    margin-left: auto !important;
+    opacity: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.mp-nav-scroll-area::-webkit-scrollbar {
     width: 6px;
 }
 
-.mp-nav-list-popup::-webkit-scrollbar-track {
+.mp-nav-scroll-area::-webkit-scrollbar-track {
     background: transparent;
 }
 
-.mp-nav-list-popup::-webkit-scrollbar-thumb {
+.mp-nav-scroll-area::-webkit-scrollbar-thumb {
     background-color: var(--mp-border-secondary);
     border-radius: 20px;
+}
+
+@keyframes mpHighlightPulse {
+    0% { transform: scale(1); outline: 2px solid transparent; box-shadow: none; }
+
+    20% { transform: scale(1.02); outline: 2px solid var(--mp-accent-primary); box-shadow: 0 0 15px var(--mp-accent-primary); }
+
+    80% { transform: scale(1.02); outline: 2px solid var(--mp-accent-primary); box-shadow: 0 0 15px var(--mp-accent-primary); }
+
+    100% { transform: scale(1); outline: 2px solid transparent; box-shadow: none; }
+
+}
+
+.mp-highlight-anim {
+    animation: mpHighlightPulse 2s ease-in-out forwards;
 }
 
 .mp-backup-section {
