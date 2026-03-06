@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="150" fill="url(#bgGrad)" />
+  <circle cx="320" cy="320" r="300" fill="url(#aura)" />
+
+  <style>
+    :root {
+      --tempo-total: 10s;
+    }
+
+    .item {
+      transform-origin: center;
+      transform-box: fill-box;
+      fill: url(#iconGrad);
+      filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.5));
+    }
+
+    .scaling-wrapper {
+      transform: translate(320px, 320px) scale(0.65) translate(-320px, -256px);
+    }
+
+    .slash {
+      animation: slashStep var(--tempo-total) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+  
+    @keyframes slashStep {
+      0%   { transform: rotate(-45deg) scale(0); opacity: 0; }
+      10%  { transform: rotate(0deg) scale(1.2); opacity: 1; }
+      18%  { transform: rotate(360deg) scale(0.4); }
+      28%, 88% { transform: rotate(360deg) scale(1); opacity: 1; } 
+      95%, 100% { transform: rotate(360deg) scale(0); opacity: 0; }
+    }
+
+    .bracket-l {
+      animation: leftStep var(--tempo-total) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes leftStep {
+      0%, 18% { transform: translateX(180px) scale(0); opacity: 0; }
+      28%, 88% { transform: translateX(0px) scale(1); opacity: 1; }
+      95%, 100% { transform: translateX(100px) scale(0); opacity: 0; }
+    }
+
+    .bracket-r {
+      animation: rightStep var(--tempo-total) cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes rightStep {
+      0%, 18% { transform: translateX(-180px) scale(0); opacity: 0; }
+      28%, 88% { transform: translateX(0px) scale(1); opacity: 1; }
+      95%, 100% { transform: translateX(-100px) scale(0); opacity: 0; }
+    }
+
+    .floating-group {
+      animation: float var(--tempo-total) ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 28%, 88%, 100% { transform: translateY(0); }
+      58% { transform: translateY(-25px); }
+    }
+  </style>
+  <g class="scaling-wrapper">
+    <g class="floating-group">
+      <path class="item bracket-l" d="M166.7 121.3c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+      <path class="item bracket-r" d="M473.4 121.3c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0z"/>
+      <path class="item slash" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6z"/>
+    </g>
+  </g>
+</svg>
