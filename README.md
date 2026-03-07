@@ -1,0 +1,46 @@
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/icon.svg" width="100" height="100">
+  <h1>My Prompt</h1>
+  <a href="https://greasyfork.org/scripts/549921" target="_blank"><img alt="Greasy Fork Version" src="https://img.shields.io/greasyfork/v/549921?style=for-the-badge&label=version&color=%23EFBF04"></a>
+  <a href="https://greasyfork.org/scripts/549921" target="_blank"><img alt="Greasy Fork Downloads" src="https://img.shields.io/greasyfork/dt/549921?style=for-the-badge&label=downloads"></a>
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en" target="_blank"><img src="https://img.shields.io/badge/license-CC--BY--NC--ND--4.0-lightgrey?style=for-the-badge&color=%23E86100" alt="License CC BY-NC-ND 4.0"></a>
+  <p><sub>Made with ❤️ by <a href="https://github.com/0H4S">OHAS</a></sub></p>
+</div>
+
+<hr>
+
+<div align="center">
+  <p><b>My Prompt</b> is an advanced prompt management UserScript that transforms AI interaction into a professional control system. The tool features a <a href="https://ko-fi.com/s/5bae55a949" target="_blank"><b>Dynamic Prompt</b></a> system (supporting variables and complex logic) and an <b>Enhance with AI</b> function, which utilizes artificial intelligence and prompt engineering to instantly optimize drafts.</p>
+  <p>Workflow efficiency is ensured through automated submission, recursive file attachment, and a smart editor with autocomplete capabilities. For organization, it includes a <b>filterable history browser</b>, <b>customizable shortcuts</b>, and an interface with <b>theming support</b>. Finally, it ensures portability via a comprehensive <b>backup and export</b> system, with the interface fully translated into <b>18 languages</b>.</p>
+
+<hr>
+   <a href="https://gemini.google.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/gemini-color.png" title="Gemini" width="60" height="60"></a>&nbsp;
+   <a href="https://chatgpt.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/chatgpt.webp" title="ChatGPT" width="60" height="60"></a>&nbsp;
+   <a href="https://grok.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/grok-dark.webp" title="Grok" width="60" height="60"></a>&nbsp;
+   <a href="https://www.perplexity.ai/"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/perplexity.webp" title="Perplexity" width="60" height="60"></a>&nbsp;
+   <a href="https://chat.deepseek.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/deepseek.webp" title="DeepSeek" width="67" height="60"></a>&nbsp;
+   <a href="https://claude.ai"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/claude-ai-light.webp" title="Claude" width="60" height="60"></a>&nbsp;
+   <a href="https://www.kimi.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/kimi-ai.webp" title="Kimi" width="60" height="60"></a>&nbsp;
+   <a href="https://chat.z.ai"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/z-ai.webp" title="Z.AI" width="60" height="60"></a>&nbsp;
+   <a href="https://chat.qwen.ai"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/qwen.webp" title="Qwen & Qianwen" width="60" height="60"></a>&nbsp;
+   <a href="https://aistudio.google.com/prompts/new_chat"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/google-ai-studio.webp" title="Google AI Studio" width="60" height="60"></a>&nbsp;
+   <a href="https://copilot.microsoft.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/microsoft-copilot.webp" title="Copilot" width="60" height="60"></a>&nbsp;
+   <a href="https://image.z.ai"><img src="https://i.ibb.co/wF84bcKr/GLM-Image.webp" title="GLM-Image" width="60" height="60"></a>&nbsp;
+   <a href="https://chat.mistral.ai/chat"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mistral-ai.webp" title="Mistral" width="70" height="60"></a>&nbsp;<br>
+   <a href="https://notebooklm.google.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/notebook-lm-dark.webp" title="Notebook LM" width="68" height="60"></a>&nbsp;
+   <a href="https://ernie.baidu.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/wenxin-color.png" title="Ernie" width="60" height="60"></a>&nbsp;
+   <a href="https://poe.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/poe-color.png" title="Poe" width="60" height="60"></a>&nbsp;
+   <a href="https://chatglm.cn"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/qingyan-color.png" title="ChatGLM" width="60" height="60"></a>&nbsp;
+   <a href="https://arena.ai"><img src="https://i.ibb.co/F4tg0hMR/Arena.png" title="Arena" width="67" height="60"></a>&nbsp;
+   <a href="https://www.doubao.com"><img src="https://i.ibb.co/k6ysyzBX/Doubao.png" title="Doubao" width="60" height="60"></a>&nbsp;
+   <a href="https://www.google.com/search?udm=50"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/google.webp" title="Google AI Mode" width="60" height="60"></a>&nbsp;
+   <a href="https://dreamina.capcut.com/ai-tool/home"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/jimeng-color.png" title="Dreamina & Jimeng Jianying" width="60" height="60"></a>&nbsp;
+   <a href="https://longcat.chat"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/longcat-color.png" title="LongCat" width="60" height="60"></a>&nbsp;
+   <a href="https://build.nvidia.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/nvidia.webp" title="NVIDIA NIM" width="75" height="60"></a>&nbsp;
+   <a href="https://yuanbao.tencent.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/yuanbao-color.png" title="Yuanbao" width="60" height="60"></a>&nbsp;
+   <a href="https://arena.ai4bharat.org"><img src="https://i.ibb.co/mr7XFNvk/Indic-LLM-Arena.png" title="Indic LLM Arena" width="60" height="60"></a>&nbsp;
+   <a href="https://labs.google/fx/en/tools/flow"><img src="https://i.ibb.co/d4D6T2K6/Google-Labs.webp" title="Flow" width="60" height="60"></a>
+<hr>
+
+<h4>If this project is useful to your daily routine, please consider making a contribution to support the maintenance and development of new features.</h4><a href="https://ko-fi.com/ohas"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support on Ko-fi" height="36"></a>
+</div>
