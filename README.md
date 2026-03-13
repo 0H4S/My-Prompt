@@ -39,6 +39,9 @@
    <a href="https://build.nvidia.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/nvidia.webp" title="NVIDIA NIM" width="60.391" height="40"></a>&nbsp;
    <a href="https://yuanbao.tencent.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/yuanbao-color.png" title="Yuanbao" width="40" height="40"></a>&nbsp;
    <a href="https://arena.ai4bharat.org"><img src="https://i.ibb.co/mr7XFNvk/Indic-LLM-Arena.png" title="Indic LLM Arena" width="40" height="40"></a>&nbsp;
+   <a href="https://www.bing.com/images/create#"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/bing.webp" title="Bing" width="27.188" height="40"></a>&nbsp;
+   <a href="https://geminigen.ai/app/imagen/"><img src="https://i.ibb.co/rfLF9gDW/Gemini-Gen-AI.png" title="GeminiGen Al" width="40" height="40"></a>&nbsp;
+   <a href="https://hunyuan.tencent.com/modelSquare/home/play?modelId=289&from=/visual"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/hunyuan-color.png" title="Hunyuan" width="40" height="40"></a>&nbsp;
    <a href="https://labs.google/fx/en/tools/flow"><img src="https://i.ibb.co/d4D6T2K6/Google-Labs.webp" title="Flow" width="40" height="40"></a>
 <hr>
 
