@@ -1,27 +1,13 @@
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Fonts/WOFF2/RobotoSlab-Regular.woff2) format('woff2');
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Fonts/WOFF2/Roboto%20Slab.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: 'JetBrains Mono';
   font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Fonts/WOFF2/RobotoSlab-Medium.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Fonts/WOFF2/RobotoSlab-SemiBold.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Fonts/WOFF2/RobotoSlab-Bold.woff2) format('woff2');
+  font-weight: 100 800;
+  src: url(https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Fonts/WOFF2/JetBrains%20Mono.woff2) format('woff2');
 }
