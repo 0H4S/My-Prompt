@@ -1,6 +1,8 @@
-# Prompt Import and Sharing Guide
+<div align="center">
+<h1>Prompt Import and Sharing Guide</h1>
+<p>Welcome to the prompt import system! You can now create, back up, and share your favorite prompts (or entire prompt packs) with the community through <b>GitHub Gist</b>. To ensure that <b>My Prompt</b> recognizes your prompts correctly, we have created a simple formatting system. Read the instructions below to master prompt creation.</p>
 
-Welcome to the prompt import system! You can now create, back up, and share your favorite prompts (or entire prompt packs) with the community through **GitHub Gist**. To ensure that **My Prompt** recognizes your prompts correctly, we have created a simple formatting system. Read the instructions below to master prompt creation.
+<img src="https://i.ibb.co/S4ncR2hw/1.gif" width="800" height="485.172"></img>
 
 ---
 
@@ -9,7 +11,7 @@ Welcome to the prompt import system! You can now create, back up, and share your
 For the system to recognize the file and for the **"Import Prompt"** button to appear automatically on GitHub Gist, **it is strictly required** that the file name contains `.mp.prompt.` before the extension.
 
 | ✅ Correct ✅ | ❌ Incorrect ❌ |
-| --- | --- |
+|:--------------:|:----------------:|
 | `Translator.mp.prompt.txt` | `Translator.txt` |
 | `Prompts.mp.prompt.json` | `Prompts.json` |
 | `Data-Analysis.mp.prompt.md` | `Data-Analysis.md` |
@@ -19,6 +21,8 @@ For the system to recognize the file and for the **"Import Prompt"** button to a
 ## Settings
 
 In `.txt` and `.md` formats, each file represents **a single prompt**. If you want to set a clean title and enable advanced features, you can add a configuration line at the beginning of the file.
+
+</div>
 
 **How it works:**
 
@@ -32,15 +36,21 @@ In `.txt` and `.md` formats, each file represents **a single prompt**. If you wa
 * `usePlaceholders:` `true` Enables Dynamic Prompt mode.
 * `autoExecute:` `true` Causes the prompt to be sent automatically upon clicking.
 
-**Usage example on line 1:** `{{title: My Super Prompt; usePlaceholders: true; autoExecute: true}}`
+**Usage example on line 1:**
+* `{{title: My Super Prompt; usePlaceholders: true; autoExecute: true}}`
+
+<br>
 
 > 💡 This first line is automatically cleared during import and will **not** appear in the body of your prompt. If you do not use this line, the system will use the file name as the title and leave the features disabled.
 
 ---
 
+<div align="center">
+
 ## Choosing the Ideal Format
 
 The system supports three formats, each with its own purpose.
+</div>
 
 ### 1. JSON — ⭐ Recommended
 
@@ -56,6 +66,8 @@ The JSON format is the most powerful and secure. It is the **only format that al
   }
 ]
 ```
+
+<br>
 
 ### 2. TXT — 🟢 Easy
 
@@ -80,6 +92,8 @@ Main Points:
 
 Sunt in culpa qui officia deserunt mollit anim id est laborum.
 ```
+
+<br>
 
 ### 3. MARKDOWN — 🟠 Less Recommended
 
@@ -108,7 +122,7 @@ Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed do eiusmod temp
 
 ---
 
-## How to Share Your Prompts
+<div align="center"><h2>How to Share Your Prompts</h2></div>
 
 1. **Account Requirements:** To **Share**, it is essential to have a GitHub Gist account. If you don't have one, register at [gist.github.com](https://gist.github.com). To **Import**, no authentication is required; public querying can be done directly via [parameterized search](https://gist.github.com/search?o=desc&q=%22.mp.prompt.%22&s=updated).
 2. **File Identification:** In the **"Filename including extension..."** field, name the file adhering to the mandatory technical nomenclature: the `.mp.prompt.` suffix (e.g., `analysis-setup.mp.prompt.txt`).
@@ -116,10 +130,15 @@ Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed do eiusmod temp
 4. **Visibility Configuration:** Set the privacy to **"Create public gist"**. This step is crucial for the prompt to be indexed and visible to other users.
 5. **Finalization:** Once the Gist is published, the URL in your browser's address bar is the official link for sharing.
 
-When accessing a prompt's page on Gist, the interface will inject the **"Import Prompt"** button next to the **"Raw"** button. Triggering this command initiates the automatic integration with the system.
+<div align="center">
+<p>When accessing a prompt's page on Gist, the interface will inject the <b>"Import Prompt"</b> button next to the <b>"Raw"</b> button. Triggering this command initiates the automatic integration with the system.</p>
+
+<img src="https://i.ibb.co/Z6nz7Vn5/2.gif" width="800" height="630.297"></img>
 
 ---
 
 ## Examples
 
 Check the [Examples](https://gist.github.com/0H4S/07abfbdcca8c1b7cf71c40bcae15e77a) to see real prompts in action.
+
+</div>
