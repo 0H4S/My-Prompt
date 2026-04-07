@@ -26,9 +26,9 @@
    <a href="https://aistudio.google.com/prompts/new_chat"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/google-ai-studio.webp" title="Google AI Studio" width="40" height="40"></a>&nbsp;
    <a href="https://copilot.microsoft.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/microsoft-copilot.webp" title="Copilot" width="40" height="40"></a>&nbsp;
    <a href="https://image.z.ai"><img src="https://i.ibb.co/wF84bcKr/GLM-Image.webp" title="GLM-Image" width="40" height="40"></a>&nbsp;
-   <a href="https://chat.mistral.ai/chat"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mistral-ai.webp" title="Mistral" width="56.484" height="40"></a>&nbsp;<br>
+   <a href="https://chat.mistral.ai/chat"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mistral-ai.webp" title="Mistral" width="56.484" height="40"></a>&nbsp;
    <a href="https://notebooklm.google.com"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/notebook-lm-dark.webp" title="Notebook LM" width="54" height="40"></a>&nbsp;
-   <a href="https://ernie.baidu.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/wenxin-color.png" title="Ernie" width="40" height="40"></a>&nbsp;
+   <a href="https://ernie.baidu.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/wenxin-color.png" title="Ernie" width="40" height="40"></a>&nbsp;<br>
    <a href="https://poe.com"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/poe-color.png" title="Poe" width="40" height="40"></a>&nbsp;
    <a href="https://chatglm.cn"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/qingyan-color.png" title="ChatGLM" width="40" height="40"></a>&nbsp;
    <a href="https://arena.ai"><img src="https://i.ibb.co/F4tg0hMR/Arena.png" title="Arena" width="53" height="40"></a>&nbsp;
@@ -41,6 +41,7 @@
    <a href="https://arena.ai4bharat.org"><img src="https://i.ibb.co/mr7XFNvk/Indic-LLM-Arena.png" title="Indic LLM Arena" width="40" height="40"></a>&nbsp;
    <a href="https://www.bing.com/images/create#"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/bing.webp" title="Bing" width="27.188" height="40"></a>&nbsp;
    <a href="https://geminigen.ai/app/imagen/"><img src="https://i.ibb.co/rfLF9gDW/Gemini-Gen-AI.png" title="GeminiGen Al" width="40" height="40"></a>&nbsp;
+   <a href="https://www.meta.ai/"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/meta.webp" title="Meta" width="60.156" height="40"></a>&nbsp;
    <a href="https://hunyuan.tencent.com/modelSquare/home/play?modelId=289&from=/visual"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/hunyuan-color.png" title="Hunyuan" width="40" height="40"></a>&nbsp;
    <a href="https://labs.google/fx/en/tools/flow"><img src="https://i.ibb.co/d4D6T2K6/Google-Labs.webp" title="Flow" width="40" height="40"></a>
 <hr>
