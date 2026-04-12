@@ -85,6 +85,7 @@ Currently, **My Prompt** has certified integration with the platforms listed bel
 | **LongCat** | https://longcat.chat/platform/api_keys |
 | **Groq** | https://console.groq.com/keys |
 | **OpenRouter** | https://openrouter.ai/settings/keys |
+| **Hugging Face** | https://huggingface.co/settings/tokens/new?tokenType=read |
 
 ### How Automatic Rotation Works
 
