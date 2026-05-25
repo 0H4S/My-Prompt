@@ -1,0 +1,2 @@
+This is just an example prompt used for the shared prompt configuration tutorial.
+Replace this text file with the final instruction that your team should use on a daily basis.
