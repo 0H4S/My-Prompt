@@ -72,8 +72,8 @@ The JSON file is the conductor of the architecture. It must be constructed in co
   "version": "1.0.0",
   "author": "Example Author or Team Name",
   "summary": "Example of a short descriptive summary explaining the purpose of this shared prompt.",
-  "prompt": "[https://raw.githubusercontent.com/example-user/example-repository/main/example-prompt.txt](https://raw.githubusercontent.com/example-user/example-repository/main/example-prompt.txt)",
-  "changelog": "[https://raw.githubusercontent.com/example-user/example-repository/main/example-changelog.md](https://raw.githubusercontent.com/example-user/example-repository/main/example-changelog.md)",
+  "prompt": "https://raw.githubusercontent.com/example-user/example-repository/main/example-prompt.txt",
+  "changelog": "https://raw.githubusercontent.com/example-user/example-repository/main/example-changelog.md",
   "usePlaceholders": true,
   "autoExecute": false
 }
