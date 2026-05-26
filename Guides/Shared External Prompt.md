@@ -185,4 +185,4 @@ To visualize the system functioning in real time, you can run an import simulati
 
 I have provided below the direct link pointing to the metadata file of this practical example. Simply copy the exact address listed below, paste it into the External Prompt URL field of your dashboard, and apply it.
 
-**Copy and paste this link into your system:** `https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@latest/Guides/External%20Prompt/meta.json`
+**Copy and paste this link into your system:** `https://cdn.jsdelivr.net/gh/0H4S/My-Prompt@main/Guides/External%20Prompt/meta.json`
