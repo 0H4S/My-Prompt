@@ -1,4 +1,4 @@
-# How to Use and Configure the "Enhance with AI" Feature
+# [DEPRECATED] How to Use and Configure the "Enhance with AI" Feature
 
 This document presents the technical instructions for the advanced configuration of the **"Enhance with AI"** feature. The objective of this guide is to detail the structuring of multiple **System Prompts** for workflow optimization and the implementation of an API key rotation system to ensure high availability and mitigate blocks due to excessive requests.
 
